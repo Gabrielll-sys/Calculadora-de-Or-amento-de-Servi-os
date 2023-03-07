@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Orçamentos Master Elétrica",
+    "slug": "LogisticaMasterEletrica",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.orcamento.master.eletrica",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/simbolo-relogio.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "36c25c09-9d17-484a-b687-02280984735b"
+      }
+    }
+  }
+}
